@@ -1,6 +1,28 @@
 # Ansible-Project
 This project uses Ansible to automate AWS EC2 management: provisioning two Ubuntu and one CentOS instance with loops, setting up passwordless SSH authentication, and shutting down only Ubuntu instances using conditionals. It demonstrates streamlined, secure cloud infrastructure management with Ansible.
 
+# Ansible Realtime project
+
+## Task 1
+
+Create three(3) EC2 instances on AWS using Ansible loops
+- 2 Instances with Ubuntu Distribution
+- 1 Instance with Centos Distribution
+
+Hint: Use `connection: local` on Ansible Control node.
+
+## Task 2
+
+Set up passwordless authentication between Ansible control node and newly created 
+instances.
+
+## Task 3
+
+Automate the shutdown of Ubuntu Instances only using Ansible Conditionals
+
+Hint: Use `when` condition on ansible `gather_facts`
+
+
 Here's a step-by-step guide to complete the project:
 
 ### Step 1: Set Up Ansible Environment
